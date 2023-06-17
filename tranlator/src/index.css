@@ -1,0 +1,113 @@
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.box1{
+  background-color: rgb(231, 227, 227);
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.box2{
+  background-color:purple;
+  height: auto;
+  width: 500px;
+ position: absolute;
+ top: 50px;
+ left: 35%;
+ border-radius: 6px;
+ padding: 20px;
+ text-align: center;  
+
+}
+.box2 h1{
+  margin-bottom: 10px;
+  color: white;
+}
+.box2 textarea{
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 4px;
+  padding: 10px;
+}
+.box2 button{
+  height: 30px;
+  border-radius: 4px;
+  padding: 5px;
+  border: none;
+  background-color:rgb(21, 195, 248) ;
+  color: white  ;
+  font-weight: bold;
+}
+.box2 button:hover{
+  box-shadow: 0px 0px 5px;
+}
+#lang{
+  height: 30px;
+  width: 200px;
+  border-radius: 4px;
+  text-align: center;
+  background-color: rgb(236, 18, 182);
+  color: white;
+  font-weight: bold;
+}
+@media(max-width:400px)
+{
+  *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .box1{
+    background-color: rgb(231, 227, 227);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+  }
+  .box2{
+    background-color:purple;
+    height: auto;
+    width: 300px;
+   border-radius: 6px;
+   padding: 10px;
+   text-align: center;  
+  position: absolute;
+  left: 50px;
+  }
+  .box2 h1{
+    margin-bottom: 10px;
+    color: white;
+    font-size: 13px;
+  }
+  .box2 textarea{
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  .box2 button{
+    height: 30px;
+    border-radius: 4px;
+    padding: 5px;
+    border: none;
+    background-color:rgb(21, 195, 248) ;
+    color: white  ;
+    font-weight: bold;
+  }
+  .box2 button:hover{
+    box-shadow: 0px 0px 5px;
+  }
+  #lang{
+    height: 30px;
+    width: 100px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: rgb(236, 18, 182);
+    color: white;
+    font-weight: bold;
+  }     
+}
